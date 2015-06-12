@@ -228,16 +228,22 @@
   top: 82px;
   height: 40px;
   width: 100%;
-  background-color: aqua; }
+  background-color: black; }
   .top-tab ul {
     list-style: none;
     margin-top: 0; }
     .top-tab ul li {
       float: left;
       background-color: ActiveCaption;
-      width: 80px;
+      width: calc(100%/6);
+      max-width: 80px;
       margin-right: 2px;
       height: 40px;
-      text-align: center; }
+      -webkit-border-top-left-radius: 10px;
+      -webkit-border-top-right-radius: 10px;
+      -moz-border-radius-topleft: 10px;
+      -moz-border-radius-topright: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
 
 /*# sourceMappingURL=index.css.map */
