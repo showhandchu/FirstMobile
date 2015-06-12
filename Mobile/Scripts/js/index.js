@@ -1,5 +1,6 @@
 ﻿var mobileModule = (function () {
     var counter = 0;
+
     return {
         incrementCounter: function () {
             return counter++;
