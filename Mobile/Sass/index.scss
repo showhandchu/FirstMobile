@@ -262,20 +262,23 @@
 }
 
 .top-tab{
-    //position: absolute;
-    //display: inline-block;
-    //top:65px;
+    position: absolute;
+    display: inline-block;
+    top:82px;
     //padding-top: 2px;
     height:40px;
     width:100%;
+    background-color:aqua;
     ul{
         list-style:none;
+        margin-top:0;
         li{
             float:left;
             background-color:ActiveCaption;
             width:80px;
             margin-right:2px;
             height:40px;
+            text-align:center;
         }
     }
 }
