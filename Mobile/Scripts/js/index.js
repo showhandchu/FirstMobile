@@ -1,6 +1,5 @@
 ﻿var mobileModule = (function () {
     var counter = 0;
-
     return {
         incrementCounter: function () {
             return counter++;
@@ -36,10 +35,10 @@ $(document).on("pagechange", function (event, data) {
             //$("#one").find("div:eq(0)").html(html);
             mobileModule.setHeader("one");
 
-            var contentType = "application/x-www-form-urlencoded; charset=utf-8";
+            //var contentType = "application/x-www-form-urlencoded; charset=utf-8";
 
-            if (window.XDomainRequest) //for IE8,IE9
-                contentType = "text/plain";
+            //if (window.XDomainRequest) //for IE8,IE9
+            //    contentType = "text/plain";
 
             //$.ajax({
             //    url: "http://localhost:8002/zh-tw/Home/GetPost",
