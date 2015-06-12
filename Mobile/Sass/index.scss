@@ -1,5 +1,5 @@
 ﻿.ui-header {
-    height:80px;
+    height:120px;
 }
 .logo {
   position: absolute;
@@ -257,6 +257,25 @@
             background-position: -82px -574px;
             width: 32px;
             height: 32px;
+        }
+    }
+}
+
+.top-tab{
+    //position: absolute;
+    //display: inline-block;
+    //top:65px;
+    //padding-top: 2px;
+    height:40px;
+    width:100%;
+    ul{
+        list-style:none;
+        li{
+            float:left;
+            background-color:ActiveCaption;
+            width:80px;
+            margin-right:2px;
+            height:40px;
         }
     }
 }

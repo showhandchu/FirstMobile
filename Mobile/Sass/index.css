@@ -1,5 +1,5 @@
 ﻿.ui-header {
-  height: 80px; }
+  height: 120px; }
 
 .logo {
   position: absolute;
@@ -221,5 +221,17 @@
       background-position: -82px -574px;
       width: 32px;
       height: 32px; }
+
+.top-tab {
+  height: 40px;
+  width: 100%; }
+  .top-tab ul {
+    list-style: none; }
+    .top-tab ul li {
+      float: left;
+      background-color: ActiveCaption;
+      width: 80px;
+      margin-right: 2px;
+      height: 40px; }
 
 /*# sourceMappingURL=index.css.map */
