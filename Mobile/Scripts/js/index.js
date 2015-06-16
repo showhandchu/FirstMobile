@@ -55,6 +55,21 @@ $(document).on("pagechange", function (event, data) {
             //        console.info(errorThrown);
             //    }
             //});
+            var source = $("#template-post").html();
+            var template = Handlebars.compile(source);
+            for (var i = 0; i < 100; i++) {
+                console.log(i);
+                var _value = {
+                    PostId: i,
+                    DeleteIcon: "", Name: "test",
+                    Department: "IT",
+                    PostDate: moment().format("YYYY/MM/DD"),
+                    PostType: "Text"
+                };
+                var html = template(_value);
+                $("#one").find(".outer-frame").append(html);
+            }
+            $(".xx1").change(function () { alert($(this).val()); });
             break;
         case "two":
             mobileModule.setHeader("two");
@@ -70,3 +85,5 @@ $(document).on("pagechange", function (event, data) {
 //            break;
 //    }
 //});
+
+

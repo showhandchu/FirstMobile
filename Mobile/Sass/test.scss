@@ -1,0 +1,111 @@
+﻿.item {
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.5);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.5);
+    margin-bottom: 10px;
+
+    .post-info {
+        div {
+            float: left;
+        }
+
+        .carousel-center {
+            display: inline-block;
+        }
+        .carousel-bottom{
+            float:right;
+        }
+        .limits-of-authority{
+            margin-left:5px;
+            margin-top:17px;
+            padding:1px 3px;
+            cursor:pointer;
+            border:1px solid white;
+            &:hover{
+                border:1px solid #ccc;
+            }
+        }
+    }
+    .post-type {
+        font-size: 20px;
+    }
+
+    .post-title {
+        display: inline-block;
+        -ms-word-break:break-all;
+        word-break:break-all;
+    }
+
+    .post-content {
+        text-align: center;
+        display: inline-block;
+        //overflow: auto;
+        //height:200px;
+        width: 100%;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        div {
+            &:first-child {
+                display: inline-block;
+                width: 98%;
+                height: 98%;
+                text-align: left;
+            }
+
+            div[class^='map-'] {
+                height: 95%;
+                width: 95%;
+            }
+
+            div[class^='photo-'] {
+                text-align: center;
+            }
+            div[class^='artical-'] {
+                text-align: left;
+                display: inline-block;
+                a {
+                    cursor: pointer;
+                }
+            }
+            .pic1 {
+                width: 220px;
+            }
+            ul li{
+                list-style-type:none;
+                float:left;
+            }
+            .pb-wrape{
+                text-align:center;
+                ul{
+                    display: inline-block; 
+                    li{
+                        float:left;
+                    }
+                }
+            }
+        }
+    }
+    .carousel-bottom {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    hr {
+        margin: 10px;
+        margin-left: 0;
+    }
+    .newsfeed-delete{
+        display: none !important;
+    }
+    &:hover{
+        .newsfeed-delete {
+            display: block !important;
+        }
+    }
+}
